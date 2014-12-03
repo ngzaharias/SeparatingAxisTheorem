@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace SAT
 {
-    abstract class Collider2D
+    public abstract class Collider2D
     {
         protected Vector2 _Centre;
         public Vector2 Centre { get { return _Centre; } }
